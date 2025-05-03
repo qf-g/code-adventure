@@ -1,0 +1,1504 @@
+{
+  "1": [
+    {
+      "question": "python中输入一个内容保存到变量n里面的写法是？",
+      "options": [
+        "A:n = input()",
+        "B:n = input",
+        "C:print(n)",
+        "D:n=print()"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "第一代计算机出现时间：",
+      "options": [
+        "A:1944",
+        "B:1945",
+        "C:1946",
+        "D:1947"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "下列选项中不符合Python语言变量命名规则的是？（ ）",
+      "options": [
+        "A:Computer",
+        "B:1st",
+        "C:computer",
+        "D:computer"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "下列选项中不符合Python语言变量命名规则的是？（ ）",
+      "options": [
+        "A:Computer",
+        "B:_1st",
+        "C:1_computer",
+        "D:computer"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "下列选项中不符合Python语言变量命名规则的是？（ ）",
+      "options": [
+        "A:Computer",
+        "B:_1st",
+        "C:_1_computer",
+        "D:import"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "飞飞和真真来到Python王国，发现在他们准备进入图书馆的时候，图书馆的智能进出系统需要他们输入自己的名字，根据你学习的知识，下面哪个函数最有可能是让他们输入名字的函数（ ）",
+      "options": [
+        "A:print()",
+        "B:input()",
+        "C:imput()",
+        "D:import()"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "请观察程序，选择正确的结果:\nprint(20 + int(\"22\"))",
+      "options": [
+        "A:42",
+        "B:2022",
+        "C:20 + 22",
+        "D:报错"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "请观察程序，选择正确的结果:\nprint(\"20\" + int(\"22\"))",
+      "options": [
+        "A:42",
+        "B:2022",
+        "C:20 + 22",
+        "D:报错"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "请观察程序，选择正确的结果\nprint(\"20\" + \"22\"))",
+      "options": [
+        "A:42",
+        "B:2022",
+        "C:20 + 22",
+        "D:报错"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "运行下方代码段，输出的是（　　）。\na = 1\nb = 2\nprint(a + b)",
+      "options": [
+        "A:1",
+        "B:2",
+        "C:3",
+        "D:12"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "运行下方代码段，输出的是（　　）。\na = 2\nb = 2\nprint(a + b)",
+      "options": [
+        "A:1",
+        "B:2",
+        "C:3",
+        "D:4"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "执行(2*3)/(9-3*2)输出的结果是什么？（ ）",
+      "options": [
+        "A:2",
+        "B:2.0",
+        "C:3",
+        "D:4.0"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "执行(2*2)/(9-4*2)输出的结果是什么？（ ）",
+      "options": [
+        "A:2",
+        "B:2.0",
+        "C:4",
+        "D:4.0"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "下面哪个比较运算符可以检查两个值是否相等？（ ）",
+      "options": [
+        "A:==",
+        "B:!=",
+        "C:<>",
+        "D:==="
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "\"真真在学习过分支结构后，想写一个程序实现对学生成绩进行判断，90分以上就输出perfect，其它分数输出come on(加油)，想要实现这个程序中的判断，使用什么结构最合适呢？（ ）",
+      "options": [
+        "A:if语句",
+        "B:for语句",
+        "C:while语句",
+        "D:break语句"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "真真在学习过循环结构后，想写一个程序实现对学生成绩进行遍历，想要实现这个程序中的判断，使用什么结构最合适呢？（ ）",
+      "options": [
+        "A:if语句",
+        "B:if-else语句",
+        "C:for语句",
+        "D:break语句"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "Turtle库中，画笔绘制的速度范围为？（ ）",
+      "options": [
+        "A:0-10",
+        "B:1-10",
+        "C:0-100",
+        "D:1-100"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Python中，用什么方式实现代码快速缩进？（ ）",
+      "options": [
+        "A:Tab键",
+        "B:空格键",
+        "C:Shift键",
+        "D:Ctrl键"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "循环中的 “continue”表示跳出整个循环吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "循环中的 “break”表示跳出整个循环吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "循环中的 “continue”表示跳过这个循环吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "循环中的 “break”表示跳过这个循环吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "在python中，\"1\"和1是相同的数据类型吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Python中通过“input(  )”命令得到的数据，数据类型是字符串吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Python 表达式\"hello\"+1+2+3 的值是\"hello123\"吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Python 表达式 10 * 2 的值为 20.0吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "在 Python 语言中， 判断语句 if 可以有多个 elif 从句， 但最多只能有一个else 从句吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "11/2的运算结果是5.5吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "11//2的运算结果是5.5吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "12/2的运算结果是？（ ）",
+      "options": [
+        "A:6",
+        "B:6.0",
+        "C:12.0",
+        "D:2.0"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Python变量名允许使用字母、数字和下划线，但不能以数字开头吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "if可以作为变量名使用吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "if不可以作为变量名使用吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Turtle库中，使用circle(20)命令，指的是画出半径为20的圆形吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Python中，使用什么命令可以输出变量的值？（ ）",
+      "options": [
+        "A:print()",
+        "B:input()",
+        "C:max()",
+        "D:min()"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Python中导入模块用的关键词是：（ ）",
+      "options": [
+        "A:import",
+        "B:imput",
+        "C:input",
+        "D:impot"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "第二代计算机使用的是：",
+      "options": [
+        "A:电子管",
+        "B:晶体管",
+        "C:集成电路",
+        "D:微型电路"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "第二代计算机使用的是：",
+      "options": [
+        "A:微型电路",
+        "B:集成电路",
+        "C:晶体管",
+        "D:电子管"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "现代计算机使用的是：",
+      "options": [
+        "A:电子管",
+        "B:晶体管",
+        "C:集成电路",
+        "D:微型电路"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "现代计算机使用的是：",
+      "options": [
+        "A:微型电路",
+        "B:集成电路",
+        "C:晶体管",
+        "D:电子管"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "下列变量命名正确的是：",
+      "options": [
+        "A:1a",
+        "B:import",
+        "C:a@bc",
+        "D:a_bc"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "下列关于input()函数描述正确的是（  ）",
+      "options": [
+        "A:input()函数的功能是打印括号中的内容",
+        "B:input()函数的功能是在代码编写界面输入内容",
+        "C:input()函数的功能是在交互界面输入内容",
+        "D:input()函数的功能是实现完整的对话效果"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "下面print语句，哪一个是正确的用法？（  ）",
+      "options": [
+        "A:print\"(hello!) \"",
+        "B:print(\"hello! \")",
+        "C:print(\"hello!＇)",
+        "D:print(<hello!>)"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "print的作用是什么？（  ）",
+      "options": [
+        "A:在屏幕上打印出来相应的文本或者数字等",
+        "B:在打印机里打印相关文本或者数字等",
+        "C:可以用来画图",
+        "D:输出一个命令行"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Python中的==代表的是？（）",
+      "options": [
+        "A:把左边的值赋值给右边",
+        "B:把右边的值赋值给左边",
+        "C:比较左右两边是否相等",
+        "D:左右两边值进行交换"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "想要让程序不停的执行，可以用（）",
+      "options": [
+        "A:while true",
+        "B:while true:",
+        "C:while True",
+        "D:while True:"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "下列变量名正确的是？（）",
+      "options": [
+        "A:54_name",
+        "B:name?",
+        "C:_name",
+        "D:D.\n\n'name'"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "看这份代码，以下说法错误的是：\nwords == input()\nif words = \"作业做完了\"\nprint(\"可以出去玩了\")",
+      "options": [
+        "A:保存通过input()输入的值时，用的是==",
+        "B:比较两边的内容是否相等时，用的是==",
+        "C:if语句后需要添加英文的冒号",
+        "D:print(\"可以出去玩了\")需要缩进"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "以下选项中属于字符串类型的数据是（  ）",
+      "options": [
+        "A:壹贰叁",
+        "B:\"123\"",
+        "C:78",
+        "D:<hello>"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "如果a的值为5，以下程序会输出？\nif a < 5:\n    print(\"太小了\")\nelse:\n    print(\"够了！\")",
+      "options": [
+        "A:太小了",
+        "B:够了！",
+        "C:5",
+        "D:报错"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "下列代码正确的是（）",
+      "options": [
+        "A:if score == 60\n    print(\"及格\")",
+        "B:if score = 60：\n    print(\"及格\")",
+        "C:if score == 60：\nprint(\"及格\")",
+        "D:if score == 60：\n    print(\"及格\")"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "已知type(a)的结果为<class 'int'>,则变量a的数据类型是（）",
+      "options": [
+        "A:字符串",
+        "B:整数",
+        "C:0",
+        "D:小数"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "以下代码运行后，输入10后，结果为（ ）\nnum = input(\"输入数字\")\nif num == 10:\n    print(\"yes\")\nelse:\n    print(\"no\")",
+      "options": [
+        "A:yes",
+        "B:no",
+        "C:10",
+        "D:报错"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "python的/与//效果是一样的",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Python代码 print(\"19\" + \"49\" )执行后将输出结果为（ ）",
+      "options": [
+        "A:1949",
+        "B:68",
+        "C:19+49",
+        "D:报错"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "运行下列代码，可以随机出数字8的是（ ）",
+      "options": [
+        "A:random.randint(0, 8)",
+        "B:import random\nrandint(0,8)",
+        "C:import random      \nrandom.randint(8,0)",
+        "D:import random    \nrandom.randint(0,8)"
+      ],
+      "answer": "D"
+    }
+  ],
+  "2": [
+    {
+      "question": "以下程序的运行结果为：\nnlist2 = [0, 1, 2, 3, 4, 5]\nprint(list2[4])",
+      "options": [
+        "A:2",
+        "B:3",
+        "C:4",
+        "D:5"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "运行下列代码，变量e中储存的值是：\na = 10\nb = 4\nc = 3\nd = 4\ne = a + ( b - c ) % d",
+      "options": [
+        "A:3",
+        "B:11",
+        "C:7",
+        "D:9"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "下面哪条语句不能输出：AAABBBCCC",
+      "options": [
+        "A:print(\"AAABBBCCC\")",
+        "B:print(\"A\"*3, \"B\"*3, \"C\"*3)",
+        "C:print(\"ABC\"*3)",
+        "D:print(\"AAA\"+\"BBB\"+\"CCC\")"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "turtle库中，turtle.goup(x,y)用于将画笔移动到坐标（x,y）位置吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "turtle 模块不能绘制中文吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "turtle 模块中创建画笔的命令是：",
+      "options": [
+        "A:turtle.Turtle()",
+        "B:turtle.shape()",
+        "C:turtle.penup()",
+        "D:turtle.goto()"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Python中，使用什么命令可以将字符串转换为整数？（ ）",
+      "options": [
+        "A:str()",
+        "B:int()",
+        "C:list()",
+        "D:float()"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Python中，使用什么命令可以将整数转换为字符串？（ ）",
+      "options": [
+        "A:str()",
+        "B:int()",
+        "C:list()",
+        "D:float()"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Python中，使用什么命令可以将列表转换为字符串？（ ）",
+      "options": [
+        "A:str()",
+        "B:int()",
+        "C:list()",
+        "D:float()"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Python中，使用什么命令可以将字符串转换为列表？（ ）",
+      "options": [
+        "A:str()",
+        "B:int()",
+        "C:list()",
+        "D:float()"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "(出题人:hz)random.choice(列表名)函数的作用是：",
+      "options": [
+        "A:从列表中随机删除一个元素",
+        "B:从列表中随机选择一个元素",
+        "C:从列表中随机修改一个元素",
+        "D:从列表中随机添加一个元素"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "\"\"\" \"\"\"的作用是允许一个字符串跨多行",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "pass的作用是",
+      "options": [
+        "A:占位",
+        "B:跳过这句话",
+        "C:重新设置变量",
+        "D:返回结果"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "print(\"劳动节在每年的{}月{}日\".format(5,\"1\"))",
+      "options": [
+        "A:劳动节在每年的1月5日",
+        "B:劳动节在每年的5月\"1\"日",
+        "C:劳动节在每年的5月1日",
+        "D:报错"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "n = int(input(\"输入一个整数：\"))\nif n % 15 == 0:\n    print(\"15的倍数\")\nelif n % 3 == 0:\n    print(\"3的倍数\")\nelif n % 5 == 0:\n    print(\"5的倍数\")\nelse:\n    print(\"不能整除3和5\")",
+      "options": [
+        "A:输入为9，输出为不能整除3和5",
+        "B:输入为15，输出为15的倍数",
+        "C:输入为30，输出为5的倍数",
+        "D:输入为30，输出为3的倍数"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "import random\n\na = random.randint(90, 100)\nprint(a)",
+      "options": [
+        "A:90",
+        "B:95",
+        "C:100",
+        "D:101"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "若a=int('7')，则type(a)的值是（）",
+      "options": [
+        "A:<class 'float'>",
+        "B:<class 'int'>",
+        "C:<class 'str'>",
+        "D:<class 'bool'>"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "若a=(3+4)*2.0，那么print(a)的输出是？（  ）",
+      "options": [
+        "A:11.0",
+        "B:14",
+        "C:14.0",
+        "D:10"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "下面 Python 执行后的输出结果是(  )。\nn= 30\nif n > 10:\n    print(\"A\")\nelif n > 20:  \n    print(\"B\")\nelif n == 30:\n    print(\"C\")\nelse:\n    print (\"D\")",
+      "options": [
+        "A:A",
+        "B:B",
+        "C:C",
+        "D:D"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "以下不属于计算机输入设备的有（ ）。",
+      "options": [
+        "A:键盘",
+        "B:音箱",
+        "C:鼠标",
+        "D:传感器"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "以下选项中，符合 Python 语言变量命名规则的是( )。",
+      "options": [
+        "A:5Star",
+        "B:fiveStar",
+        "C:*Star",
+        "D:@Star"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "下面有关 Python 循环中有关 break 语句的说法，正确的是( )。",
+      "options": [
+        "A:含有 break 语句的所在循环，将不会执行该循环的 else 子句",
+        "B:含有 break 语句的所在循环，如果 break 被执行，将中断该循环；",
+        "C:一个循环只能有且只能有一个 break 语句；",
+        "D:一个循环可以有多个 break 子句，但每次执行只能一个 break 被执行；"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "在 Windows 系统中通过键盘完成对选定文本移动的按键组合是先 Ctrl+X，移\n动到目标位置后按 Ctrl+V。",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "程序员用 C、C++、Python、Scratch 等编写的程序能在 CPU 上直接执行。",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Python 代码 turtle.circle()可以绘制每边边长相等的多边形。 ( )",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Python 代码 turtle.goto()执行后不会改变海龟的朝向。（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Python的int()函数可以将数字式字符串形如\"3.14\"或浮点数如3.14转换为\n整数。（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Python 表达式\"10\" * 2 的值为 20。（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Python 代码 print( \"19\" + \"49\" )执行后将输出 1949。",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    }
+  ],
+  "3": [
+    {
+      "question": "下面代码将打印出什么数字\nnumbers=[1,3,2,8,9]\nprint(numbers[1]+numbers[3])",
+      "options": [
+        "A:3",
+        "B:11",
+        "C:4",
+        "D:9"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "下列程序的运行结果是？\nL=[1,2,3,4,5,2,1]\na = L[0]\nb = L[3]\nprint(a + b)",
+      "options": [
+        "A:3",
+        "B:4",
+        "C:5",
+        "D:6"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "在turtle库中的指令，penup()不会使得海龟发生位置移动变化吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "s = '{0}+{1}={2}'.format(2, 3, 5)，s的值为{0}+{1}={2}吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "10/2 == 10//2 的结果为True吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "print() 函数在输出文本时默认在最后加上一个换行符号吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "(出题人:hz)python的turtle模块中，隐藏画笔应该使用哪个命令？",
+      "options": [
+        "A:Turtle()",
+        "B:Screen()",
+        "C:hideturtle()",
+        "D:headturtle()"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "运行以下代码，当输入的购买数量为6时，输出应付金额为多少？（  ）\nnum = input(\"输入购买数量:\")\nnum = int(num)\nif num < 3:\n    price = 4\nelif num < 6:\n    price = 3\nelse:\n    price = 2\nprint(num * price)",
+      "options": [
+        "A:6",
+        "B:12",
+        "C:18",
+        "D:24"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "运行下列代码，当用户输入40时，程序会输出什么？\nn = int(input(\"请输入：\"))\nif n < 20:\n    print(\"A\")\nelif n < 30:\n    print(\"B\")\nelif n < 40:\n    print(\"C\")\nelse:\n    print(\"D\")",
+      "options": [
+        "A:A",
+        "B:B",
+        "C:C",
+        "D:D"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "当num的值为10、50时，打印结果分别是多少（  ）\nnum = ?\nif num < 50:\n    if num < 10:\n        print(\"c\")\n    else:\n        print(\"b\")\nelse:\n    print(\"a\")",
+      "options": [
+        "A:c, a",
+        "B:b, a",
+        "C:c, b",
+        "D:b, b"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "下列程序运行之后，用户输入2，会打印出什么结果？（  ）\na = 6\nb = 3\nresult = input(str(a) + \"/\" + str(b) + \"=\")\nif float(result) == a/b:\n    print(\"正确\")\nelse:\n    print(\"错误\")",
+      "options": [
+        "A:报错",
+        "B:正确",
+        "C:错误",
+        "D:3.5"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "小明给自己写了一个程序，用来决定他晚上回家之后做什么晚饭。程序如下（注：go_back代表回家的意思；程序中的8、9、10、11分别代表晚上8、9、10、11点钟）   \nif go_back == 8:\n    print(\"煮火锅\")\nelif go_back == 9:\n    print(\"煎饺子\")\nelif go_back == 10:\n    print(\"煮白粥\")\nelif go_back == 11:\n    print(\"泡方便面\")\n当小明9点回家时，他分别会做什么饭？（   ）",
+      "options": [
+        "A:煮火锅",
+        "B:煎饺子",
+        "C:煮白粥",
+        "D:泡方便面"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "运行下方代码段，输出的结果是（　　）\na=6\nprint(a>=3 and a<=6)",
+      "options": [
+        "A:True",
+        "B:False",
+        "C:6",
+        "D:a>=3 and a<=6"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "continue 语句不能在循环体之外使用。",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "break语句执行后，将跳出程序所有的循环，程序结束.( )",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "已知：a = 7，b = 5，c = 12 ，执行以下哪个语句结果为True？（ ）",
+      "options": [
+        "A:a > c and a < b",
+        "B:a < c",
+        "C:a < c and a < b",
+        "D:c < b"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "下面程序的运行结果是：\na = 0\nwhile True:\n    a = a + 2\n    if a == 2:\n       continue\n    print(a)\n    break",
+      "options": [
+        "A:0",
+        "B:2",
+        "C:4",
+        "D:报错"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "下面程序的运行结果是：\na = 5\nb = 3\nc = 7\nif a > b > c:\n    print(\"Hello\")\nelif a < b < c:\n    print(\"World\")\nelse:\n    print(\"Goodbye\")",
+      "options": [
+        "A:Hello",
+        "B:World",
+        "C:Goodbye",
+        "D:以上都不是"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "关于turtle，以下描述错误的是？（ ）",
+      "options": [
+        "A:turtle中的画笔不能设置不同的形状",
+        "B:turtle中的画笔可以设置为圆形",
+        "C:turtle中的画笔可以设置为方形",
+        "D:turtle中的画笔可以设置为三角形"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "想要画出如下图形，第③行代码应该是？\n---------\n        |\n        |\n        |\n        ↓\n① import turtle\n② turtle.forward(100)\n③\n④ turtle.forward(100)",
+      "options": [
+        "A:turtle.left(90)",
+        "B:turtle.right(90)",
+        "C:turtle.left(180)",
+        "D:turtle.right(-90)"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "下列哪一个函数可以将海龟顺时针旋转？（ ）",
+      "options": [
+        "A:left（）",
+        "B:right（）",
+        "C:back（）",
+        "D:forward（）"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "下面的程序为海龟绘制正方形的程序，请选择正确选项将程序补全？（ ）\nimport turtle\nturtle.forward(100)\nturtle.left(90)\nturtle.forward(100)\nturtle.left(90)\nturtle.forward(100)\nturtle.left(  )\nturtle.forward(100)\nturtle.left(90)",
+      "options": [
+        "A:90",
+        "B:180",
+        "C:0",
+        "D:270"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "turtle.circle(90, 180)会绘制一个什么样的图形？",
+      "options": [
+        "A:半径为180的扇形",
+        "B:半径为90的半圆",
+        "C:半径为90的圆形",
+        "D:半径为180的圆形"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "执行turtle.circle(80,steps=6)语句，所绘制的图形以下说法正确的是（）",
+      "options": [
+        "A:绘制出一个半径为80像素的圆",
+        "B:绘制出六个半径为80像素的圆",
+        "C:绘制出一个半径为80像素的圆和一个六边形",
+        "D:绘制出一个半径为80像素的圆内接正六边形"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "turtle.dot(40)，这个语句画出的点的半径大小是？（  ）",
+      "options": [
+        "A:80",
+        "B:40",
+        "C:20",
+        "D:0"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "下列代码不能展示出直径为10的点的是?（ ）",
+      "options": [
+        "A:turtle.pensize(10)\n\nturtle.dot()\n\nturtle.hideturtle()",
+        "B:turtle.dot(10)\n\nturtle.hideturtle()",
+        "C:turtle.begin_fill()\n\nturtle.circle(5)\n\nturtle.end_fill()\n\nturtle.hideturtle()",
+        "D:turtle.begin_fill()\n\nturtle.circle(10)\n\nturtle.end_fill()\n\nturtle.hideturtle()"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "下列代码能设置长80，高135的窗口尺寸的是？（  ）",
+      "options": [
+        "A:turtle.setup(135, 80)",
+        "B:turtle.setup(80, 135)",
+        "C:turtle.turtle(80, 135)",
+        "D:turtle.bgpic(135, 80)"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "下列命令哪些是窗口相关的函数？（  ）",
+      "options": [
+        "A:sc.setup(100， 200)",
+        "B:sc.penup()",
+        "C:sc.pencolor(\"red\")",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "turtle.goto(x,y)的含义为下列选项的哪一个？（ ）",
+      "options": [
+        "A:以目前坐标为原点，画一个边长为x和y的矩形",
+        "B:画笔提笔，移动到x，y的位置",
+        "C:按照现在画笔状态，将画笔移动到坐标为x，y的位置",
+        "D:将目前原点移动到x，y的位置"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "关于下面程序，描述正确的是？(）\nimport turtle\nturtle.goto(100,100)\nturtle.goto(100,-100)\nturtle.goto(-100,-100)\nturtle.goto(-100,100)",
+      "options": [
+        "A:运行代码后，会画出一个正方形。",
+        "B:运行代码后，会画出一个正方形以及一条从(0,0)到(100, 100)的连线",
+        "C:运行代码后，turtle 面朝方向是水平向右。",
+        "D:运行代码后，turtle 面朝方向是竖直向上。"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "关于Turtle绘图，下列说法错误的是？（ ）",
+      "options": [
+        "A:色彩处理时，可以使用彩色画笔pencolor() 更改目前画笔的颜色",
+        "B:penup()指的是将笔提起，不会绘制任何图形",
+        "C:在选择画笔粗细时可以使用pensize()",
+        "D:在海龟绘图中，画布中央是(0, 0)，往右X坐标值递减，往左X坐标值递增"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "下列哪一段代码是海龟走到指定坐标然后左转90度？（ ）",
+      "options": [
+        "A:turtle.goto(90,0)\n\nturtle.left(90)",
+        "B:turtle.left(90) \n\nturtle.goto(90,0)",
+        "C:turtle.goto(90,0) \n\nturtle.right(90)",
+        "D:turtle.right(90)\n\nturtle.goto(90,0)"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "以下哪个程序运行后小海龟的方向朝上（  ）",
+      "options": [
+        "A:turtle.goto(0, 120)\nturtle.left(180)",
+        "B:turtle.right(90)\nturtle.forward(120)\nturtle.left(180)",
+        "C:turtle.circle(90)\nturtle.forward(120)\nturtle.right(90)",
+        "D:turtle.circle(90,180)\nturtle.forward(120)\nturtle.left(90)"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "计算机系统中存储的基本单位用 B 来表示，它代表的是（ ）。",
+      "options": [
+        "A:Byte",
+        "B:Block",
+        "C:Bulk",
+        "D:Bit"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "下面有关 Python 的说法，不正确的是( )。",
+      "options": [
+        "A:Python 是一种面向对象的程序设计语言",
+        "B:Python 有丰富的扩展库，是 Python 的重要特色",
+        "C:Python 编译器可以生成目标平台的机器代码，运行效率高",
+        "D:Python 是解释型高级语言，可以跨平台运行"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "在 Python 中实现 123 除以 10 分别得到其商 a 和余数 b 的代码是（ ）。",
+      "options": [
+        "A:a ,b = 123 % 10 , 123 // 10",
+        "B:a , b = 123 // 10 , 123 % 10",
+        "C:a , b = 123 / 10 , 123 % 10",
+        "D:a , b = 123 / 10 , 123 // 10"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "下面有关 turtle.color()的说法，正确的是（ ）。",
+      "options": [
+        "A:turtle.color()函数不能没有参数；",
+        "B:turtle.color(1,2,3)表示画笔颜色为 1、背景颜色为 2,前景颜色为 3；",
+        "C:turtle.color(\"red\",\"green\")表示画笔颜色为 red、填充颜色为 green；",
+        "D:turtle.color((1,2,3),(4,5,6))分别表示画笔颜色和填充颜色；"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "turtle.speed(n)用于确定绘图速度，当 n 值为（ ），速度最快。",
+      "options": [
+        "A:0",
+        "B:1",
+        "C:5",
+        "D:10"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "下面 Python 执行后的输出结果是( )。\nn= 30\nif n>10:\n    print(\"A\")\nelif n>20:\n    print(\"B\")\nelif n== 30:\n    print(\"C\")\nelse:print(\"D\")",
+      "options": [
+        "A:A",
+        "B:B",
+        "C:C",
+        "D:D"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "以下 Python 代码执行后输出结果是( )。\nSum=0\nor i in range(1,10,2):\n    if i%3:\n        continue\n    Sum +=i\nprint(Sum)",
+      "options": [
+        "A:12",
+        "B:13",
+        "C:18",
+        "D:23"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Python 表达式\"10\" * 2 的值为 20。（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Python 表达式 5 * 3 // 2 的值为 8，因为 15 除以 2 的商为 7.5，四舍五入\n即为 8。",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "在 Python 语言中，判断语句 if 可以有多个 elif 从句，但最多只能有一个\nelse 从句。",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "2025年春节有两件轰动全球的事件，一个是DeepSeek横空出世，另一个是贺岁片《哪吒2》票房惊人，入了\n全球票房榜。下面关于DeepSeek与《哪吒2》的描述成立的是( )。",
+      "options": [
+        "A:《哪吒2》是一款新型操作系统",
+        "B:DeepSeek是深海钻探软件",
+        "C:《哪吒2》可以生成新的软件",
+        "D:DeepSeek可以根据《哪吒2》的场景生成剧情脚本"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "在某集成开发环境中编辑一个源代码文件时不可以执行下面（ ）操作。",
+      "options": [
+        "A:修改变量定义",
+        "B:保存代码修改",
+        "C:撤销代码修改",
+        "D:插入执行截图"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "有关下列Python代码的说法， 的是( )。\nprint(\"我爱码代码！\")",
+      "options": [
+        "A:配对双引号内的汉字改为英文Hello,Python代码能正确执行",
+        "B:代码中的双引号，可以改为两个单引号",
+        "C:代码中的双引号，可以改为三个单引号",
+        "D:代码中的双引号，可以改为三个双引号"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "下面Python代码执行后的输出是( )。\nN = 10\nprint(f\"N*N={N*N}\")",
+      "options": [
+        "A:10*10={10*10}",
+        "B:100=100",
+        "C:N*N=100",
+        "D:N*N={100}"
+      ],
+      "answer": "C"
+    }
+  ],
+  "4": [
+    {
+      "question": "下列代码输出结果是\nls=['python','2021']\nprint(type(ls))",
+      "options": [
+        "A:<class 'list'>",
+        "B:<class 'str'>",
+        "C:<class 'int'>",
+        "D:<class 'tuple'>"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "List1=[1, \"a\", \"b\", 2, 3, 4]中 3 的索引值为",
+      "options": [
+        "A:2",
+        "B:3",
+        "C:4",
+        "D:5"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "下列程序的运行结果是？\nL=[1,2,3,4,5,2,1]\nL.pop(1)\nprint(L)",
+      "options": [
+        "A:[1,2,3,4,5,2]",
+        "B:[1,3,4,5,2,1]",
+        "C:[1,2,3,4,5]",
+        "D:[2,3,4,5,2,1]"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "若s=「\"中国\",\"I love you\",[2022,100]]，则len(s)的值是",
+      "options": [
+        "A:2",
+        "B:3",
+        "C:2022",
+        "D:中国"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "若s=「\"中国\",\"I love you\",[2022,100],[2022,100]]，则len(s)的值是",
+      "options": [
+        "A:4",
+        "B:3",
+        "C:2022",
+        "D:中国"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "执行turtle.circle(80,steps=6)语句，绘制出一个半径为80像素的圆内接正六边形吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Python中提供了大量的标准库模块，比如time.sleep(1) 可以实现延时1分钟吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Python中提供了大量的标准库模块，比如time.sleep(1) 它的作用是:",
+      "options": [
+        "A:延时1秒",
+        "B:延时1分钟",
+        "C:延时1小时",
+        "D:延时1天"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "append函数用于在列表任意位置中添加一个值吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "append函数的作用是:",
+      "options": [
+        "A:在列表末尾添加一个值",
+        "B:在列表开头添加一个值",
+        "C:在列表任意位置添加一个值",
+        "D:在列表中删除一个值"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "(出题人:hz) turtle库中，使用哪个命令可以清除画笔画的内容？",
+      "options": [
+        "A:clear()",
+        "B:hideturtle()",
+        "C:write()",
+        "D:shape()"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "在 Python 中，假如 N 为正整数，则 range( N )与 range( 0 , N )等效。",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    }
+  ],
+  "5": [
+    {
+      "question": "time.strftime() 可以用于获取当前时间吗？（ ）",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    }
+  ],
+  "6": [
+    {
+      "question": "关于下列程序理解说法正确的是\nnum=0\nwhile num<10:\n    print(\"Python\")\n    num+=1",
+      "options": [
+        "A:在while代码块中无论加什么都不能改变死循环",
+        "B:运行结果打印输出10个\"Python\"语句",
+        "C:这个while循环是一个死循环,会一直打印\"Python\"",
+        "D:将num<10改为num>10可以将代码变为死循环"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "(出题人:hz)\nn=0\nfor i in range(8,0,-1):\n    n+=i\n    if i==4:\n        break\nelse:\n    n/=2\nprint(n)\n的输出结果是？",
+      "options": [
+        "A:36",
+        "B:18.0",
+        "C:0",
+        "D:30"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "(出题人:hz)\nn=0\nfor i in range(8,0,-1):\n    n+=i\n    if i==4:\n        continue\nelse:\n    n/=2\nprint(n)\n的输出结果是？",
+      "options": [
+        "A:36",
+        "B:18.0",
+        "C:0",
+        "D:30"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "(出题人:hz)\nn=0\nfor i in range(10,2,-1):\n    n+=i\n    if i==4:\n        continue\nelse:\n    n/=2\nprint(n)\n的输出结果是？",
+      "options": [
+        "A:26.0",
+        "B:18.0",
+        "C:26",
+        "D:18"
+      ],
+      "answer": "A"
+    }
+  ]
+}

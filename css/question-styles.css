@@ -1,0 +1,318 @@
+/* 问题系统样式 */
+.modal.question-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+}
+
+.question-modal {
+    max-width: 800px;
+    width: 80%;
+    max-height: 80vh;
+    overflow-y: auto;
+    z-index: 1050; /* 确保问题模态窗口显示在最上层 */
+}
+
+/* RE0: 从0开始的异世界编程冒险 - 问题与答题样式 */
+
+.question-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.question-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.75rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.question-header h3 {
+    margin: 0;
+    color: var(--primary-dark);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.question-text {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+    background-color: var(--bg-light);
+    border-radius: var(--border-radius);
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+/* 代码样式 */
+.question-text pre {
+    background-color: #f6f8fa;
+    border: 1px solid #e1e4e8;
+    border-radius: var(--border-radius-sm);
+    padding: 1rem;
+    overflow-x: auto;
+    margin: 1rem 0;
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.question-text code {
+    font-family: var(--font-mono);
+    background-color: #f6f8fa;
+    border-radius: 3px;
+    padding: 0.2em 0.4em;
+    font-size: 0.9rem;
+}
+
+.question-text pre code {
+    background-color: transparent;
+    padding: 0;
+}
+
+.question-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.option-btn {
+    position: relative;
+    padding: 1rem;
+    border: 2px solid var(--border-color);
+    background-color: var(--bg-color);
+    border-radius: var(--border-radius);
+    text-align: left;
+    cursor: pointer;
+    transition: var(--transition);
+    font-size: 1rem;
+    font-family: var(--font-main);
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.option-btn:hover {
+    background-color: var(--bg-light);
+    border-color: var(--primary-light);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+}
+
+.option-btn:active {
+    transform: translateY(0);
+    box-shadow: var(--shadow-sm);
+}
+
+.option-btn:before {
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.75rem;
+    border: 2px solid var(--border-color);
+    border-radius: 50%;
+    flex-shrink: 0;
+    transition: var(--transition);
+}
+
+.option-btn:hover:before {
+    border-color: var(--primary-color);
+}
+
+/* 问题计时器 */
+.question-timer {
+    text-align: center;
+    padding: 0.75rem;
+    border-top: 1px solid var(--border-color);
+    color: var(--text-light);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.question-timer.warning {
+    color: var(--danger-color);
+    font-weight: 600;
+    animation: pulse 1s infinite;
+}
+
+/* 加载动画 */
+.loading-spinner {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 5px solid var(--bg-light);
+    border-top: 5px solid var(--primary-color);
+    border-radius: 50%;
+    margin: 1rem auto;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* 响应式设计 */
+@media (max-width: 576px) {
+    .question-options {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* 计时器样式 */
+.timer-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.timer-bar {
+    height: 8px;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+.timer-fill {
+    height: 100%;
+    background-color: #e74c3c;
+    width: 100%;
+}
+
+/* 当时间不足10秒时，添加紧急样式 */
+.question-timer.urgent {
+    color: #E74C3C;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* 结果反馈样式 */
+.result-feedback {
+    transition: all 0.3s;
+}
+
+.result-feedback.correct h3 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.result-feedback.wrong h3 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.result-feedback.wrong p {
+    color: white;
+    font-size: 18px;
+}
+
+/* 在战斗界面内的问题样式 */
+.battle-question-area .question-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.battle-question-area .question-header {
+    background-color: #f0f0f0;
+    padding: 10px 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.battle-question-area .question-header h3 {
+    margin: 0;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.battle-question-area .question-text {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 15px;
+    background: #fdfdfd;
+    border-radius: 4px;
+    line-height: 1.5;
+}
+
+.battle-question-area .question-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 15px;
+}
+
+.battle-question-area .option-btn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-width: 80px;
+    font-size: 1rem;
+}
+
+.battle-question-area .option-btn:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.battle-question-area .question-timer {
+    text-align: center;
+    font-weight: bold;
+    color: #e74c3c;
+    padding: 8px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+    font-size: 0.9rem;
+}
+
+/* 代码样式 */
+.battle-question-area pre {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin: 10px 0;
+    font-family: monospace;
+    font-size: 13px;
+    line-height: 1.4;
+    border: 1px solid #ddd;
+}
+
+.battle-question-area code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}

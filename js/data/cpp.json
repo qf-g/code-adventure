@@ -1,0 +1,734 @@
+{
+  "1": [
+    {
+      "question": "第一代计算机出现时间：",
+      "options": [
+        "A:1944",
+        "B:1945",
+        "C:1946",
+        "D:1947"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "第一代计算机使用的是：",
+      "options": [
+        "A:电子管",
+        "B:晶体管",
+        "C:集成电路",
+        "D:微型电路"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "第二代计算机使用的是：",
+      "options": [
+        "A:电子管",
+        "B:晶体管",
+        "C:集成电路",
+        "D:微型电路"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "现代计算机使用的是：",
+      "options": [
+        "A:电子管",
+        "B:晶体管",
+        "C:集成电路",
+        "D:微型电路"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "#include<iostream>是什么",
+      "options": [
+        "A:主函数",
+        "B:命名空间",
+        "C:头文件",
+        "D:变量"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "using namespace std是什么",
+      "options": [
+        "A:主函数",
+        "B:命名空间",
+        "C:头文件",
+        "D:变量"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "int main()是什么",
+      "options": [
+        "A:主函数",
+        "B:命名空间",
+        "C:头文件",
+        "D:变量"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "函数可以存在多个",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "主函数可以存在多个",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "命名空间可以不是std",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "注释一行可以使用/",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "注释一行可以使用//",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "注释多行可以使用/*  */",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "C++的基本框架不包含：",
+      "options": [
+        "A:头文件",
+        "B:命名空间",
+        "C:主函数",
+        "D:return 0;"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "C++的输出语句是：",
+      "options": [
+        "A:cin",
+        "B:include",
+        "C:cout",
+        "D:print"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "以下输出语句中正确的是：",
+      "options": [
+        "A:cout<\"hello\";",
+        "B:cout<<\"hello\";",
+        "C:cout<<\"hello';",
+        "D:cout<<\"hello\""
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "C++中换行的方法是",
+      "options": [
+        "A:endl",
+        "B:\\0",
+        "C:\\t",
+        "D:换行"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "C++中cout后面跟着的内容为:",
+      "options": [
+        "A:<<",
+        "B:>>",
+        "C:>",
+        "D:<"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "在主函数中遇到return 0；程序会",
+      "options": [
+        "A:更快",
+        "B:更慢",
+        "C:重新执行",
+        "D:立刻结束"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "在C++中如果想要把文字内容输出应该怎么写",
+      "options": [
+        "A:'你好'",
+        "B:\"你好\"",
+        "C:”你好“",
+        "D:‘你好’"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "C++中如果要把多个内容用一个cout输出，应该用什么连接",
+      "options": [
+        "A:+",
+        "B:-",
+        "C:<<",
+        "D:>>"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "C++中执行以下代码，\ncout<<\"1+1\";\n运行的结果为：",
+      "options": [
+        "A:2",
+        "B:11",
+        "C:1+1",
+        "D:1"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "以下变量名错误的是：",
+      "options": [
+        "A:cout",
+        "B:cin",
+        "C:int",
+        "D:main"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "以下变量名错误的是:",
+      "options": [
+        "A:___1",
+        "B:1___",
+        "C:Abc",
+        "D:Ab1"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "变量起名的规则有：",
+      "options": [
+        "A:只能由字母、数字、下划线组成",
+        "B:第一个不能为数字",
+        "C:不能与关键字相同",
+        "D:起名字要与作用相关联方便查看变量作用"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "C++输入内容用的语句是：",
+      "options": [
+        "A:cin",
+        "B:cout",
+        "C:include",
+        "D:endl"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "题目要求输入2个数字，每个数字一行，以下正确的写法是:",
+      "options": [
+        "A:int a,b;\ncin>>a>>\"\\n\">>b;",
+        "B:int a,b;\ncin>>a>>endl>>b>>endl;",
+        "C:int a,b;\ncin>>a>>b;",
+        "D:int a,b;\ncin<<a<<b;"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "C++定义变量a方法正确的是:",
+      "options": [
+        "A:a int;",
+        "B:int a;",
+        "C:a=()",
+        "D:cin>>a;"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "C++定义变量的格式是<数据类型> <变量名>;",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "定义一个整型变量n初始化为10的写法为：",
+      "options": [
+        "A:int n=10",
+        "B:int n=10;",
+        "C:int(n=10);",
+        "D:int(n=10)"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "定义变量并且初始赋值的方法格式是：<数据类型> <变量名> = <数据值>;",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "定义一个变量n,输入这个变量n的写法为:",
+      "options": [
+        "A:int n;\ncout<<n;",
+        "B:int n;\ncin<<n;",
+        "C:int n;\ncout>>n;",
+        "D:int n;\ncin>>n;"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "定义一个变量n,输入变量n的写法为：",
+      "options": [
+        "A:int cin>>n;",
+        "B:int n;\ncin>>n",
+        "C:int n;\ncin>>n>>endl;",
+        "D:int n;\ncin>>n;"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "现在有一个变量a=5,b=6。想要输出5+6=11的代码应该怎么写",
+      "options": [
+        "A:cout<<a+b=a+b;",
+        "B:cout<<a<<\"+\"<<b<<\"=\"<<a+b;",
+        "C:cout<<\"a\"<<\"+\"<<\"b\"<<\"=\"<<\"a+b\";",
+        "D:cout<<\"a+b=a+b\";"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "定义3个变量a,b,c，输入三个变量该如何写",
+      "options": [
+        "A:int a,b,c;\ncin>>a>>b>>c;",
+        "B:int a;\nint b;\nint c；\ncin>>a>>b>>c;",
+        "C:int a,b,c;\ncout>>a>>b>>c;",
+        "D:int a;\nint b;\nint c;\ncout<<a<<b<<c;"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "C++中的int类型只能支持2^31-1(2147483647)内的整数数字运算",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "C++中的int类型只能支持2^63-1(9223372036854775807)内的整数数字运算",
+      "options": [
+        "A:是",
+        "B:否",
+        "C:不确定",
+        "D:以上都不是"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "C++中定义一个变量以下哪个是正确的:",
+      "options": [
+        "A:int>>a",
+        "B:a int",
+        "C:long long >>a",
+        "D:long long (a);"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "float数据类型的精度范围为：",
+      "options": [
+        "A:3-4位",
+        "B:4-5位",
+        "C:5-6位",
+        "D:6-7位"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "double数据类型的精度范围为：",
+      "options": [
+        "A:9-10位",
+        "B:13-14位",
+        "C:15-16位",
+        "D:17-18位"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "0.01应该用哪种数据类型存储",
+      "options": [
+        "A:int",
+        "B:long long",
+        "C:char",
+        "D:double"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "3.14159应该用那种数据类型存储",
+      "options": [
+        "A:int",
+        "B:long long",
+        "C:char",
+        "D:double"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "3.1415926535应该用那种数据类型存储",
+      "options": [
+        "A:int",
+        "B:float",
+        "C:double",
+        "D:long long"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "5201314可以用哪种数据类型存储",
+      "options": [
+        "A:short",
+        "B:char",
+        "C:int",
+        "D:以上都可以"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "520131415926可以用哪种数据类型存储",
+      "options": [
+        "A:short",
+        "B:int",
+        "C:long long",
+        "D:以上都可以"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "double n = 3.1415926;\nprintf(\"%.2lf\",n);\n该程序的输出结果为:",
+      "options": [
+        "A:3.14",
+        "B:3.141",
+        "C:3.142",
+        "D:3.1415"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "double n = 3.1415926;\nprintf(\"%.3lf\",n);\n该程序的输出结果为:",
+      "options": [
+        "A:3.1416",
+        "B:3.141",
+        "C:3.142",
+        "D:3.1415"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "int a=1996,b=10,c=7;\nprintf(\"%d年%d月%d日\",b,b,c);\n该程序输出的内容为:",
+      "options": [
+        "A:%d年%d月%d日",
+        "B:1996年10月7日",
+        "C:10年10月7日",
+        "D:7年7月7日"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "int a=1234567;\nprintf(\"%6d\",a);\n该程序输出的内容为:",
+      "options": [
+        "A:1234567",
+        "B:123456",
+        "C:234567",
+        "D:123567"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "int a=12;\nprintf(\"%06d\",a);\n该程序输出的内容为:",
+      "options": [
+        "A:12",
+        "B:000012",
+        "C:120000",
+        "D:12"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "C++格式化输出中%lld对应的是哪种数据类型：",
+      "options": [
+        "A:long long",
+        "B:int",
+        "C:char",
+        "D:short"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "C++格式化输出中%d对应的是哪种数据类型：",
+      "options": [
+        "A:long long",
+        "B:short",
+        "C:int",
+        "D:char"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "C++格式化输出中%lf对应的是哪种数据类型：",
+      "options": [
+        "A:int",
+        "B:long",
+        "C:float",
+        "D:double"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "C++格式化输出中%f对应的是哪种数据类型：",
+      "options": [
+        "A:float",
+        "B:double",
+        "C:char",
+        "D:int"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "格式化输入的头文件为:",
+      "options": [
+        "A:cstdio",
+        "B:iostream",
+        "C:cstring",
+        "D:cstdlib"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "格式化输出的代码为:",
+      "options": [
+        "A:cout",
+        "B:printf",
+        "C:scanf",
+        "D:cin"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "cout<<7/2;这句话输出的内容为:",
+      "options": [
+        "A:3.5",
+        "B:7/2",
+        "C:3",
+        "D:72"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "cout<<7.0/2;这句话输出的内容为:",
+      "options": [
+        "A:3.5",
+        "B:3",
+        "C:7.0/2",
+        "D:72"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "cout<<\"7/2\";这句话输出的内容为:",
+      "options": [
+        "A:7/2",
+        "B:3.5",
+        "C:3",
+        "D:72"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "cout<<5.0/2;这句话输出的内容为:",
+      "options": [
+        "A:2",
+        "B:10",
+        "C:5.0",
+        "D:2.5"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "cout<<\"5/2.0\";这句话输出的内容为:",
+      "options": [
+        "A:2",
+        "B:5.0",
+        "C:2.5",
+        "D:2.0"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "cout<<5*1/2;这句话输出的内容为:",
+      "options": [
+        "A:2.5",
+        "B:2",
+        "C:5",
+        "D:2.0"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "cout<<(3%8);这句话输出的内容为:",
+      "options": [
+        "A:3",
+        "B:5",
+        "C:8",
+        "D:0"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "cout<<(15%8);这句话输出的内容为:",
+      "options": [
+        "A:1",
+        "B:15",
+        "C:8",
+        "D:7"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "cout<<(16%8);这句话输出的内容为:",
+      "options": [
+        "A:2",
+        "B:16",
+        "C:8",
+        "D:0"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "把a保留两位小数输出的写法为：",
+      "options": [
+        "A:printf(%.2lf,a)",
+        "B:printf(\"%.2d\",a)",
+        "C:printf(\"%.2lf\",a)",
+        "D:printf(%.2d,a)"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "double a = 2; 保留两位小数输出后结果为：",
+      "options": [
+        "A:2",
+        "B:2.0",
+        "C:2.00",
+        "D:以上都对"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "int a=5,b=2;\ndouble c = a/b;\n以上程序输出的为:",
+      "options": [
+        "A:5/2",
+        "B:2",
+        "C:2.5",
+        "D:报错"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "double a=5,b=2;\nint c= a/b;\n以上程序输出的为:",
+      "options": [
+        "A:5/2",
+        "B:2",
+        "C:2.5",
+        "D:报错"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "double a=5,b=2;\ncout<<a/b;\n以上程序输出的为:",
+      "options": [
+        "A:5/2",
+        "B:2",
+        "C:2.5",
+        "D:报错"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "double a=5;\nint b=2;\ncout<<a/b;\n以上程序输出的为:",
+      "options": [
+        "A:5/2",
+        "B:2",
+        "C:2.5",
+        "D:报错"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "double a=5,b=2;\ncout<<a%b;\n以上程序输出的为:",
+      "options": [
+        "A:1",
+        "B:2.5",
+        "C:2",
+        "D:报错"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "double a=5；\nint b=2;\ncout<<a%b;\n以上程序输出的为:",
+      "options": [
+        "A:1",
+        "B:2",
+        "C:2.5",
+        "D:报错"
+      ],
+      "answer": "D"
+    }
+  ]
+}

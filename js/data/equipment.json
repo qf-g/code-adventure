@@ -1,0 +1,83 @@
+{
+  "法杖": {
+    "attack": 4,
+    "defense": 0,
+    "gold": 20,
+    "shop_price": 100,
+    "difficulty": 1,
+    "part": "weapon",
+    "image": "wand.png"
+  },
+  "斧头": {
+    "attack": 6,
+    "defense": 0,
+    "gold": 30,
+    "shop_price": 150,
+    "difficulty": 2,
+    "part": "weapon",
+    "image": "axe.png"
+  },
+  "弓箭": {
+    "attack": 6,
+    "defense": 0,
+    "gold": 30,
+    "shop_price": 150,
+    "difficulty": 2,
+    "part": "weapon",
+    "image": "bow.png"
+  },
+  "木剑": {
+    "attack": 5,
+    "defense": 0,
+    "gold": 25,
+    "shop_price": 125,
+    "difficulty": 1,
+    "part": "weapon",
+    "image": "sword.png"
+  },
+  "枫叶剑": {
+    "attack": 66,
+    "defense": 5,
+    "gold": 666,
+    "shop_price": 3666,
+    "difficulty": 30,
+    "part": "weapon",
+    "image": "MapleLeafSword.png"
+  },
+  "破旧的手套": {
+    "attack": 0,
+    "defense": 2,
+    "gold": 15,
+    "shop_price": 75,
+    "difficulty": 2,
+    "part": "gloves",
+    "image": "gloves.png"
+  },
+  "破旧的布甲": {
+    "attack": 0,
+    "defense": 3,
+    "gold": 30,
+    "shop_price": 150,
+    "difficulty": 3,
+    "part": "armor",
+    "image": "cloth_armor.png"
+  },
+  "破旧的裤子": {
+    "attack": 0,
+    "defense": 3,
+    "gold": 30,
+    "shop_price": 150,
+    "difficulty": 4,
+    "part": "pants",
+    "image": "pants.png"
+  },
+  "破旧的鞋子": {
+    "attack": 0,
+    "defense": 2,
+    "gold": 25,
+    "shop_price": 125,
+    "difficulty": 4,
+    "part": "shoes",
+    "image": "shoes.png"
+  }
+}

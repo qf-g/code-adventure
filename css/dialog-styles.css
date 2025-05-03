@@ -1,0 +1,472 @@
+/* RE0: 从0开始的异世界编程冒险 - 对话框与交互样式 */
+
+/* 对话框基础样式 */
+.dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    animation: fade-in 0.3s ease;
+}
+
+.dialog-box {
+    background-color: var(--bg-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-lg);
+    padding: 1.5rem;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    position: relative;
+    animation: slide-up 0.4s ease;
+}
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slide-up {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.dialog-box h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.dialog-box p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.dialog-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.confirm-btn, .cancel-btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--border-radius);
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.confirm-btn {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.confirm-btn:hover {
+    background-color: var(--primary-dark);
+    box-shadow: var(--shadow);
+    transform: translateY(-2px);
+}
+
+.cancel-btn {
+    background-color: var(--danger-color);
+    color: white;
+}
+
+.cancel-btn:hover {
+    background-color: var(--danger-dark);
+    box-shadow: var(--shadow);
+    transform: translateY(-2px);
+}
+
+/* 通知样式 */
+.notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 1rem 1.5rem;
+    border-radius: var(--border-radius);
+    background-color: var(--bg-color);
+    box-shadow: var(--shadow-lg);
+    z-index: 1000;
+    min-width: 250px;
+    max-width: 350px;
+    animation: slide-left 0.5s ease;
+}
+
+@keyframes slide-left {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+.notification.info {
+    border-left: 5px solid var(--info-color);
+}
+
+.notification.success {
+    border-left: 5px solid var(--success-color);
+}
+
+.notification.warning {
+    border-left: 5px solid var(--warning-color);
+}
+
+.notification.error {
+    border-left: 5px solid var(--danger-color);
+}
+
+/* 战斗选项弹窗 */
+.battle-options-popup {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--bg-color);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-lg);
+    z-index: 200;
+    text-align: center;
+    min-width: 300px;
+    animation: fade-in-scale 0.3s ease;
+}
+
+@keyframes fade-in-scale {
+    from { transform: translate(-50%, -50%) scale(0.9); opacity: 0; }
+    to { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+}
+
+.battle-options-popup h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.75rem;
+}
+
+.battle-options-popup p {
+    margin-bottom: 1.25rem;
+    color: var(--text-color);
+}
+
+.options-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.continue-btn, .escape-btn {
+    padding: 0.75rem 1.25rem;
+    border-radius: var(--border-radius);
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.continue-btn {
+    background-color: var(--success-color);
+    color: white;
+}
+
+.continue-btn:hover {
+    background-color: #3d8b40;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+}
+
+.escape-btn {
+    background-color: var(--danger-color);
+    color: white;
+}
+
+.escape-btn:hover {
+    background-color: #d32f2f;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+}
+
+/* 语言选择器样式 */
+.language-selector {
+    padding: 2rem;
+    max-width: 600px;
+}
+
+.language-section, .save-section {
+    margin-bottom: 2rem;
+}
+
+.language-options {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.language-btn {
+    padding: 1rem 2rem;
+    border-radius: var(--border-radius);
+    background-color: var(--bg-light);
+    border: 2px solid var(--border-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.language-btn:hover {
+    border-color: var(--primary-color);
+    box-shadow: var(--shadow);
+}
+
+.language-btn.selected {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.existing-saves {
+    margin-top: 1.5rem;
+}
+
+.saves-list {
+    list-style: none;
+    padding: 0;
+}
+
+.save-item {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.save-item a {
+    color: var(--primary-color);
+    text-decoration: none;
+    display: block;
+    transition: var(--transition);
+}
+
+.save-item a:hover {
+    color: var(--primary-dark);
+    transform: translateX(5px);
+}
+
+/* 商店和物品样式 */
+.equipment-grid, .potions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.equipment-slot {
+    background-color: var(--bg-light);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+}
+
+.equipment-slot:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow);
+}
+
+.equipment-image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin: 0 auto 1rem auto;
+}
+
+.student-selection {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.student-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--bg-light);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.student-option:hover {
+    background-color: var(--primary-light);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow);
+    color: white;
+}
+
+.student-option img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+    object-fit: cover;
+    border: 2px solid var(--primary-color);
+}
+
+/* 设置面板 */
+.settings-panel {
+    max-width: 600px;
+}
+
+.settings-section {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background-color: var(--bg-light);
+    border-radius: var(--border-radius);
+}
+
+.setting-item {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.setting-item label {
+    flex: 0 0 150px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.speed-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.speed-buttons button {
+    padding: 0.5rem 1rem;
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.speed-buttons button.active {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+/* 背包系统 */
+.backpack-contents {
+    max-height: 70vh;
+    overflow-y: auto;
+    padding: 1rem;
+}
+
+.backpack-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    transition: var(--transition);
+}
+
+.backpack-item:hover {
+    background-color: var(--bg-light);
+}
+
+.item-image {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-right: 1rem;
+}
+
+.item-details {
+    flex: 1;
+}
+
+.equip-btn, .use-btn {
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius-sm);
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.equip-btn:hover, .use-btn:hover {
+    background-color: var(--primary-dark);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-sm);
+}
+
+/* 任务系统 */
+.quest-card {
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    border-radius: var(--border-radius);
+    background-color: var(--bg-light);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+}
+
+.quest-card:hover {
+    box-shadow: var(--shadow);
+}
+
+.quest-card.completed {
+    background-color: rgba(76, 175, 80, 0.1);
+}
+
+.quest-card h3 {
+    margin-bottom: 0.75rem;
+    color: var(--primary-color);
+}
+
+/* 增强型的按钮样式 */
+.action-btn {
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius);
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition);
+    min-width: 100px;
+    text-align: center;
+}
+
+.action-btn:hover {
+    background-color: var(--primary-dark);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+}
+
+.action-btn.danger {
+    background-color: var(--danger-color);
+}
+
+.action-btn.danger:hover {
+    background-color: #d32f2f;
+}
+
+/* 自适应样式 */
+@media (max-width: 576px) {
+    .language-options, .dialog-buttons, .options-buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .equipment-grid, .student-selection {
+        grid-template-columns: 1fr;
+    }
+}
