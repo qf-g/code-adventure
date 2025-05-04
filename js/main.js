@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const monsterDisplay = document.getElementById('monster-display');
     const battleLogContent = document.getElementById('battle-log-content');
     const startBattleBtn = document.getElementById('start-battle-btn');
-    const fleeBattleBtn = document.getElementById('flee-battle-btn');
+    // 移除已经不存在的flee-battle-btn的引用
     
     // 商店和任务按钮
     const shopBtn = document.getElementById('shop-btn');
@@ -134,17 +134,14 @@ document.addEventListener('DOMContentLoaded', () => {
         // 设置战斗按钮事件
         startBattleBtn.addEventListener('click', () => {
             if (gameState.battleSystem) {
+                // 播放战斗开始音效
+                audioManager.playSFX('battle_start');
                 gameState.battleSystem.startBattle();
                 audioManager.playSFX('click');
             }
         });
         
-        fleeBattleBtn.addEventListener('click', () => {
-            if (gameState.battleSystem) {
-                gameState.battleSystem.fleeBattle();
-                audioManager.playSFX('click');
-            }
-        });
+        // 移除对已经不存在的flee-battle-btn的事件绑定
         
         // 设置设置按钮事件
         const settingsBtn = document.getElementById('settings-btn');
@@ -342,6 +339,9 @@ document.addEventListener('DOMContentLoaded', () => {
         // 清空地图容器
         mapContainer.innerHTML = '';
         
+        // 添加CSS类使布局为每行3个，共2行
+        mapContainer.className = 'maps-grid three-columns';
+        
         // 添加所有地图
         gameState.gameData.maps.forEach(map => {
             const mapCard = document.createElement('div');
@@ -381,6 +381,8 @@ document.addEventListener('DOMContentLoaded', () => {
             mapCard.addEventListener('click', () => {
                 if (gameState.battleSystem) {
                     gameState.battleSystem.selectMap(map);
+                    // 进入战斗界面时切换为战斗音乐
+                    audioManager.playMusic('battle_theme', true);
                 }
             });
             

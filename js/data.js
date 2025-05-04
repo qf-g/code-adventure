@@ -22,37 +22,37 @@ class GameData {
             {
                 name: "风原旷野",
                 levelRange: [1, 5],
-                image: "assets/maps/风原旷野.png",
+                image: "assets/maps/风原旷野.webp",
                 description: "初学者友好的区域，适合刚开始编程冒险的新手"
             },
             {
                 name: "影歌古林",
                 levelRange: [6, 10],
-                image: "assets/maps/影歌古林.png",
+                image: "assets/maps/影歌古林.webp",
                 description: "有些挑战的森林区域，对基础知识有一定要求"
             },
             {
                 name: "晶簇深渊",
                 levelRange: [11, 15],
-                image: "assets/maps/晶簇深渊.png",
+                image: "assets/maps/晶簇深渊.webp",
                 description: "神秘的洞穴系统，充满了更复杂的编程谜题"
             },
             {
                 name: "幽影泥沼",
                 levelRange: [16, 20],
-                image: "assets/maps/幽影泥沼.png",
+                image: "assets/maps/幽影泥沼.webp",
                 description: "危险的沼泽地带，需要扎实的编程基础才能通过"
             },
             {
                 name: "熔核裂谷",
                 levelRange: [21, 25],
-                image: "assets/maps/熔核裂谷.png",
+                image: "assets/maps/熔核裂谷.webp",
                 description: "炽热的火山地带，考验高级编程技巧"
             },
             {
                 name: "怒涛回廊",
                 levelRange: [26, 30],
-                image: "assets/maps/怒涛回廊.png",
+                image: "assets/maps/怒涛回廊.webp",
                 description: "最终挑战区域，只有精通编程的冒险者才能征服"
             }
         ];

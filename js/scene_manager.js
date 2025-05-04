@@ -83,6 +83,20 @@ class SceneManager {
             // 更新当前场景状态
             this.currentScene = sceneName;
             
+            // 如果切换到主场景，确保重新渲染地图和团队状态
+            if (sceneName === 'main') {
+                console.log('切换到主场景，更新UI');
+                
+                // 确保gameData已加载
+                if (this.gameData) {
+                    // 更新团队状态
+                    this.updateTeamStatus();
+                    
+                    // 更新地图显示
+                    this.renderMapSelection();
+                }
+            }
+            
             // 发送场景切换事件
             const event = new CustomEvent('sceneChanged', { 
                 detail: { from: currentSceneElement.id, to: targetSceneElement.id } 
@@ -122,45 +136,7 @@ class SceneManager {
      */
     initializeMainScene(options) {
         // 更新地图选择显示
-        const mapContainer = document.getElementById('map-container');
-        if (mapContainer) {
-            mapContainer.innerHTML = ''; // 清空现有内容
-            
-            // 为每个地图创建一个卡片
-            this.gameData.maps.forEach(map => {
-                const mapCard = document.createElement('div');
-                mapCard.className = 'map-card';
-                
-                // 添加地图图片
-                const mapImage = document.createElement('img');
-                mapImage.src = map.image;
-                mapImage.alt = map.name;
-                mapCard.appendChild(mapImage);
-                
-                // 添加地图名称和等级范围
-                const mapInfo = document.createElement('div');
-                mapInfo.className = 'map-info';
-                
-                const mapName = document.createElement('h3');
-                mapName.textContent = map.name;
-                
-                const levelRange = document.createElement('p');
-                levelRange.textContent = `等级 ${map.levelRange[0]}-${map.levelRange[1]}`;
-                
-                mapInfo.appendChild(mapName);
-                mapInfo.appendChild(levelRange);
-                mapCard.appendChild(mapInfo);
-                
-                // 添加点击事件
-                mapCard.addEventListener('click', () => {
-                    if (window.battleSystem) {
-                        window.battleSystem.selectMap(map);
-                    }
-                });
-                
-                mapContainer.appendChild(mapCard);
-            });
-        }
+        this.renderMapSelection();
         
         // 更新团队状态显示
         this.updateTeamStatus();
@@ -212,6 +188,70 @@ class SceneManager {
                 this.addBattleLog('请选择"开始战斗"进行战斗，或者"逃跑"返回地图选择。');
             }
         }
+    }
+    
+    /**
+     * 渲染地图选择界面
+     */
+    renderMapSelection() {
+        const mapContainer = document.getElementById('map-container');
+        if (!mapContainer || !this.gameData || !this.gameData.maps) {
+            console.error('无法渲染地图：容器或数据不存在');
+            return;
+        }
+        
+        // 清空地图容器
+        mapContainer.innerHTML = '';
+        
+        // 设置网格布局为每行3个
+        mapContainer.className = 'maps-grid three-columns';
+        
+        // 添加所有地图
+        this.gameData.maps.forEach(map => {
+            const mapCard = document.createElement('div');
+            mapCard.className = 'map-card';
+            
+            // 添加地图图片
+            const mapImage = document.createElement('img');
+            mapImage.src = map.image;
+            mapImage.alt = map.name;
+            mapCard.appendChild(mapImage);
+            
+            // 创建地图信息容器
+            const mapInfo = document.createElement('div');
+            mapInfo.className = 'map-info';
+            
+            // 添加地图名称和等级
+            const mapName = document.createElement('h3');
+            mapName.textContent = map.name;
+            mapInfo.appendChild(mapName);
+            
+            const mapLevel = document.createElement('p');
+            mapLevel.textContent = `等级: ${map.levelRange[0]}-${map.levelRange[1]}`;
+            mapInfo.appendChild(mapLevel);
+            
+            // 添加描述
+            if (map.description) {
+                const mapDesc = document.createElement('p');
+                mapDesc.className = 'map-description';
+                mapDesc.textContent = map.description;
+                mapInfo.appendChild(mapDesc);
+            }
+            
+            mapCard.appendChild(mapInfo);
+            
+            // 添加点击事件
+            mapCard.addEventListener('click', () => {
+                if (window.battleSystem) {
+                    window.battleSystem.selectMap(map);
+                    audioManager.playMusic('battle_theme', true);
+                }
+            });
+            
+            mapContainer.appendChild(mapCard);
+        });
+        
+        console.log(`SceneManager: 渲染了 ${this.gameData.maps.length} 个地图`);
     }
     
     /**

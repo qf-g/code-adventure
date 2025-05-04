@@ -28,6 +28,20 @@ class BattleSystem {
      * 选择地图并开始准备战斗
      */
     selectMap(map) {
+        console.log(`选择地图: ${map.name}`);
+        this.currentMap = map;
+        
+        // 播放点击音效
+        audioManager.playSFX('click');
+        
+        // 切换到战斗界面
+        if (this.sceneManager) {
+            this.sceneManager.switchTo('battle');
+            
+            // 切换到战斗音乐
+            audioManager.playMusic('battle_theme', true);
+        }
+        
         this.selectedMap = map;
         this.generateMonster(map.levelRange);
         this.showBattleScreen();
@@ -219,6 +233,11 @@ class BattleSystem {
      * 开始战斗
      */
     startBattle() {
+        console.log('开始战斗');
+        
+        // 播放战斗开始音效
+        audioManager.playSFX('battle_start');
+        
         if (this.battleStarted) {
             this.addBattleLog("战斗已经开始！");
             return;
@@ -387,6 +406,11 @@ class BattleSystem {
      * 逃跑
      */
     fleeBattle() {
+        console.log('逃离战斗');
+        
+        // 播放点击音效
+        audioManager.playSFX('click');
+        
         // 有20%概率逃跑失败
         const escapeChance = Math.random();
         
@@ -419,6 +443,9 @@ class BattleSystem {
             this.addBattleLog('逃跑成功！');
             this.returnToMap();
         }
+        
+        // 返回主界面后恢复主题音乐
+        audioManager.playMusic('main_theme', true);
     }
     
     /**
@@ -671,6 +698,15 @@ class BattleSystem {
      * 结束战斗
      */
     endBattle(victory) {
+        console.log(`战斗结束，胜利: ${victory}`);
+        
+        // 根据结果播放音效
+        if (victory) {
+            audioManager.playMusic('victory_theme');
+        } else {
+            // 失败时可能需要其他音效
+        }
+        
         this.battleResult = victory;
         
         // 清除战斗控制按钮
@@ -722,6 +758,11 @@ class BattleSystem {
         });
         
         battleControls.appendChild(returnBtn);
+        
+        // 延迟后切换回主音乐
+        setTimeout(() => {
+            audioManager.playMusic('main_theme', true);
+        }, 3000);
     }
     
     /**
